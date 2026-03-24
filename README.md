@@ -3,12 +3,16 @@
 ## 📌 Overview
 This project is a content-based movie recommendation system built using Java. It suggests movies based on similarity by analyzing movie descriptions using basic NLP techniques.
 
+---
+
 ## 🚀 Features
 - Content-based filtering approach
 - Text processing using Term Frequency (TF) and TF-IDF
 - Cosine similarity for recommendation
 - CSV-based dataset handling
-- Simple and efficient recommendation logic
+- Efficient and scalable recommendation logic
+
+---
 
 ## 🛠 Tech Stack
 - Java
@@ -16,6 +20,8 @@ This project is a content-based movie recommendation system built using Java. It
 - File Handling (CSV)
 - Basic NLP (TF / TF-IDF)
 - Cosine Similarity Algorithm
+
+---
 
 ## 📂 Project Structure
 Movie-Recommendation-System/
@@ -30,32 +36,70 @@ Movie-Recommendation-System/
 │
 │── README.md
 
+---
+
 ## ▶️ How to Run
 
-Step 1: Clone Repository
-git clone https://github.com/yourusername/movie-recommendation-system.git
+### Step 1: Clone Repository
+git clone https://github.com/GujjaYeshwanthreddy/movie-recommendation-system.git
 
-Step 2: Navigate to Project
+### Step 2: Navigate to Project
 cd movie-recommendation-system
 
-Step 3: Compile
+### Step 3: Compile
 cd src
 javac *.java
 
-Step 4: Run
+### Step 4: Run
 cd ..
 java -cp src Main
 
+---
+
 ## 🎯 Example Usage
 
-Input:
+**Input:**
 Inception
 
-Output:
+**Output:**
 Recommended Movies:
 - Interstellar
 - Matrix
 - Doctor Strange
+
+---
+
+## 🧪 Sample Inputs & Outputs
+
+### ▶️ Input 1
+Inception
+
+**Output:**
+- Interstellar
+- Matrix
+- Doctor Strange
+
+---
+
+### ▶️ Input 2
+Titanic
+
+**Output:**
+- Notebook
+- Frozen
+- Moana
+
+---
+
+### ▶️ Input 3
+Avengers
+
+**Output:**
+- Iron Man
+- Spider Man
+- Black Panther
+
+---
 
 ## 🧠 How It Works
 1. Loads movie dataset from CSV file
@@ -64,18 +108,29 @@ Recommended Movies:
 4. Sorts movies based on similarity score
 5. Recommends top similar movies
 
+---
+
 ## ⚠️ Limitations
 - Does not use user ratings
 - Depends only on text similarity
-- Accuracy depends on dataset
+- Accuracy depends on dataset size
+
+---
 
 ## 🚀 Future Improvements
 - Add user-based recommendation system
-- Use larger datasets (IMDb/Kaggle)
+- Integrate larger datasets (IMDb/Kaggle)
 - Build web interface using Spring Boot
-- Improve NLP accuracy
+- Improve NLP accuracy using advanced techniques
+
+---
+
+
 
 ## 📌 Author
-Gujja Yeshwanth Reddy
-GitHub: https://github.com/GujjaYeshwanthreddy
-LinkedIn: https://www.linkedin.com/in/yeshwanth123movie-recommendation-system
+**Gujja Yeshwanth Reddy**
+
+- GitHub: https://github.com/GujjaYeshwanthreddy
+- LinkedIn: https://www.linkedin.com/in/yeshwanth123
+
+---
